@@ -33,17 +33,6 @@ const chains = [
     chain: "TCH",
   },
   {
-    name: "Ubiq",
-    infoURL: "https://ubiqsmart.com",
-    chainId: 8,
-    nativeCurrency: {
-      name: "Ubiq Ether",
-      symbol: "UBQ",
-      decimals: 18,
-    },
-    chain: "UBQ",
-  },
-  {
     name: "OP Mainnet",
     infoURL: "https://optimism.io",
     chainId: 10,
@@ -925,7 +914,7 @@ const chains = [
   },
   {
     name: "Morph",
-    infoURL: "https://morphl2.io",
+    infoURL: "https://morph.network",
     chainId: 2818,
     nativeCurrency: {
       name: "Ether",
@@ -1043,6 +1032,17 @@ const chains = [
       decimals: 18,
     },
     chain: "MegaETH",
+  },
+  {
+    name: "Robinhood Chain",
+    infoURL: "https://docs.robinhood.com/chain",
+    chainId: 4663,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "ETH",
   },
   {
     name: "OEV Network",
@@ -1164,6 +1164,17 @@ const chains = [
       decimals: 18,
     },
     chain: "Cyber",
+  },
+  {
+    name: "RWA Chain",
+    infoURL: "https://rwa-chain.io",
+    chainId: 7741,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "RWA",
   },
   {
     name: "Kinto Mainnet",
@@ -2069,17 +2080,6 @@ const chains = [
     chain: "ETH",
   },
   {
-    name: "ZERO Network",
-    infoURL: "https://docs.zero.network",
-    chainId: 543210,
-    nativeCurrency: {
-      name: "Ether",
-      symbol: "ETH",
-      decimals: 18,
-    },
-    chain: "ZERONetwork",
-  },
-  {
     name: "DustBoy IoT",
     infoURL: "https://www.cmuccdc.org/",
     chainId: 555888,
@@ -2355,6 +2355,17 @@ const chains = [
     chain: "ETH",
   },
   {
+    name: "Crynux on RH",
+    infoURL: "https://crynux.io",
+    chainId: 18896215,
+    nativeCurrency: {
+      name: "Crynux",
+      symbol: "CNX",
+      decimals: 18,
+    },
+    chain: "ETH",
+  },
+  {
     name: "DBK Chain",
     infoURL: "https://docs.dbkchain.io",
     chainId: 20240603,
@@ -2364,6 +2375,17 @@ const chains = [
       decimals: 18,
     },
     chain: "DBK Chain",
+  },
+  {
+    name: "BB84",
+    infoURL: "https://bb84.com",
+    chainId: 42069000,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "ETH",
   },
   {
     name: "Aquachain",
@@ -2487,6 +2509,17 @@ const chains = [
       decimals: 18,
     },
     chain: "NEAR",
+  },
+  {
+    name: "Crynux on Near",
+    infoURL: "https://crynux.io",
+    chainId: 1313161911,
+    nativeCurrency: {
+      name: "Crynux",
+      symbol: "CNX",
+      decimals: 18,
+    },
+    chain: "ETH",
   },
   {
     name: "RARI Chain Mainnet",
